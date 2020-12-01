@@ -62,7 +62,6 @@ img {
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #ECECEC;
-
 }
 
 .header .logo {
@@ -123,11 +122,13 @@ text-decoration: none;
 .navigation-list-link:hover,
 .navigation-list-link:focus,
 .header-mail:hover,
-.header-mail:focus {
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
 color: var(--blue-color);
 }
 
-.header-tel{
+.header-tel, .header-mail{
 color: var(--grey-color);
 text-decoration: none;
 }
